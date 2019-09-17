@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/sachin26thakur/heroku_hello_world#readme",
   "dependencies": {
+    "@material-ui/icons": "^4.4.1",
     "body-parser": "^1.19.0",
     "concurrently": "^4.0.1",
     "express": "^4.17.1",

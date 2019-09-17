@@ -1,4 +1,8 @@
 import React, { Component } from 'react';
+import Container from './components/container/container';
+
+
+
 
 class App extends Component {
   state = {
@@ -38,7 +42,15 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
+      <Container/>
+    );
+  }
+}
+
+export default App;
+
+
+{/* <div className="App">
         <p>{this.state.response}</p>
         <form onSubmit={this.handleSubmit}>
           <p>
@@ -52,9 +64,4 @@ class App extends Component {
           <button type="submit">Submit</button>
         </form>
         <p>{this.state.responseToPost}</p>
-      </div>
-    );
-  }
-}
-
-export default App;
+      </div> */}
